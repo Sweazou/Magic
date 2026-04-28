@@ -1,0 +1,15 @@
+<UserControl x:Class="Magic.MagicSettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Margin="0,0,0,12">
+        <TextBlock Margin="0,0,0,8"
+                   TextWrapping="Wrap"
+                   Text="Enter one absolute games folder per line. Each direct child folder under each root is treated as one game." />
+        <TextBlock FontWeight="SemiBold" Text="Games folders" />
+        <TextBox MinHeight="140"
+                 Margin="0,4,0,0"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto"
+                 Text="{Binding GamesFoldersText, UpdateSourceTrigger=PropertyChanged}" />
+    </StackPanel>
+</UserControl>
