@@ -1,7 +1,7 @@
-Id: Magic_Playnite_Plugin
+Id: Magic_6be4d8fa-b4cc-4a6c-97ea-6850c09dc5b4
 Name: Magic
 Author: Sweaz
-Version: 0.1.0
+Version: 0.1.1
 Module: Magic.dll
 Type: GameLibrary
 Icon: icon.png

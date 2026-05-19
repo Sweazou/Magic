@@ -18,6 +18,9 @@ namespace Magic
 
         public override Guid Id { get; } = Guid.Parse("6be4d8fa-b4cc-4a6c-97ea-6850c09dc5b4");
         public override string Name => PluginName;
+        public override string LibraryIcon => Path.Combine(
+            Path.GetDirectoryName(typeof(MagicPlugin).Assembly.Location) ?? string.Empty,
+            "icon.png");
 
         public MagicPlugin(IPlayniteAPI api) : base(api)
         {
