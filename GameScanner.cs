@@ -28,7 +28,10 @@ namespace Magic
             new Regex(@"crash(?:report|reporter|handler|send|pad)", RegexOptions.IgnoreCase | RegexOptions.Compiled),
             new Regex(@"report(?:crash|error|tool|client)", RegexOptions.IgnoreCase | RegexOptions.Compiled),
             new Regex(@"dxsetup", RegexOptions.IgnoreCase | RegexOptions.Compiled),
-            new Regex(@"redistributable", RegexOptions.IgnoreCase | RegexOptions.Compiled)
+            new Regex(@"redistributable", RegexOptions.IgnoreCase | RegexOptions.Compiled),
+            new Regex(@"(?:^|[^a-z0-9])vc[_-]?redist(?:[^a-z0-9]|$)", RegexOptions.IgnoreCase | RegexOptions.Compiled),
+            new Regex(@"(?:^|[^a-z0-9])vcredist(?:[^a-z0-9]|$)", RegexOptions.IgnoreCase | RegexOptions.Compiled),
+            new Regex(@"(?:^|[^a-z0-9])redist(?:[^a-z0-9]|$)", RegexOptions.IgnoreCase | RegexOptions.Compiled),
         };
 
         private static readonly string[] PreferredPathKeywords =
