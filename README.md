@@ -1,5 +1,5 @@
 # <img width="32" height="32" alt="icon" src="https://github.com/user-attachments/assets/43cefb61-0e92-4224-8ab2-238f2d310bf8" /> Magic
-**M**agic is an **A**utomatic **G**ames **I**mporter **C**ompagnion for [Playnite](https://github.com/JosefNemec/Playnite).
+**M**agic is an **A**utomatic **G**ames **I**mporter **C**ompanion for [Playnite](https://github.com/JosefNemec/Playnite).
 
 It **“magically”** detect all your games in a given folder(s) and add them all to playnite automatically.
 
